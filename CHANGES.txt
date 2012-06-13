@@ -1,0 +1,34 @@
+
+2.0 (Less / LawnChair fork)
+- Removed MYSQL in favor of Lawnchair.php
+- Support for aliases - set the 'url' field in a database row to be the token you want to want to alias to, and the 'redir_type' to 'alias'
+- Avoids collisions between automatically assigned shortcuts and manual ones
+- Allows mixed-case shortcuts
+- Custom slugs in bookmarklets
+- Allowed overwriting existing slugs (with a warning that this is bad for the Internet)
+
+1.1.1
+- Fix for #1
+- Support for api and redirect URL arguments thanks to Lessn 1.0.5
+- Added new configuration option HOMEPAGE_URL for redirecting somewhere if no short url is given
+
+1.1 (butteredurls fork)
+- modified query calls to use PDO to allow PostgreSQL/SQLite support
+- created an install.php to handle execution of installation queries
+- created statistics table to record IP/referer/timestamp
+- added column to urls table for doing custom urls like /flickr
+- added simple statistics (hits) page in admin area
+
+1.0.2
+- updated existing url query to also compare the url in the event of multiple matching checksums
+- changed UNIQUE checksum index to non-unique INDEX to allow for legitimate collisions
+- added note about .htaccess to README.txt
+- added "Updating from 1.0.1" to README.txt
+- added CHANGES.txt
+
+1.0.1
+- fixed YEAR definition (was 356 days instead of 365)
+- fixed typos in README.txt
+
+1.0
+- initial release
