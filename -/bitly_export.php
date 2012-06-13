@@ -22,7 +22,7 @@ define('bitly_secret' , 'YOUR_BITLY_ASSIGNED_CLIENT_SECRET_FOR_OAUTH');
 /** 
  * This is the URL you previously used with bitly...
  */
-$old_url = "http://strings.me/";
+$old_url = "http://YOUR_OLD_URL.HERE/";
 
 include("bitly.php");
 require_once("Lawnchair.php");

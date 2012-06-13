@@ -10,11 +10,6 @@
  * @author Robin Monks <devlinks@gmail.com>
  */
 
-define('bitlyKey', 'R_8573bf33de705deacef07f318c172eac');
-define('bitlyLogin' , 'freekrai');
-define('bitly_clientid' , '0948c93974326edae3c851602b68b1c5d7ebc58a');
-define('bitly_secret' , 'e61ea3318e6487a71730e7c1b0ce9d700802eff2');
-define('bitly_access_token','369bcf1a92a2d22d006416ab803ec357b061147a');
 
 /**
  * The URI of the standard bitly v3 API.
